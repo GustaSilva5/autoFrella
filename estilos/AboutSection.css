@@ -1,0 +1,22 @@
+/* About Section */
+section#Sobre {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0a0a0a;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+  }
+  

@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:  #e40a0a; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  text-decoration: none;
+  border-radius: 20px; /* Bordas arredondadas */
+  transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  background-color: #e60606; /* Cor de fundo do botão ao passar o mouse */
+}
+

@@ -1,0 +1,64 @@
+/* Cars Section */
+section#Carros,
+section#Motos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.car-info,
+.moto-info {
+  margin-top: 20px;
+}
+
+.car-info h2,
+.moto-info h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.car-info p,
+.moto-info p {
+  font-size: 14px;
+  font-size: 20px;
+  color: #888;
+  margin-top: 9px;
+}
+
+
+/*Quando passar o Mouse a borda ira ficar escura*/
+
+.card img {
+  transition: transform 0.3s ease;
+  border: 2px solid transparent; /* Adiciona uma borda transparente inicialmente */
+}
+
+.card img:hover {
+  transform: scale(115%);
+  border-color: black; /* Muda a cor da borda para preto quando o mouse passa por cima */
+}
