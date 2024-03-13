@@ -1,0 +1,77 @@
+/*Centralização de todos os elementos*/
+.container-wrapper {
+    padding-top: 180px;
+    padding-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Espaçamento entre os elementos */
+}
+
+.slider-descriptions {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos um embaixo do outro */
+    gap: 20px; /* Espaçamento entre os elementos */
+    max-width: 600px; /* Largura máxima do slider e das descrições */
+}
+
+.slider-container {
+    max-width: 600px; /* Largura máxima do slider */
+}
+
+.slider {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* Garante que as imagens não ultrapassem a borda do slider */
+}
+
+.slider img {
+    width: 100%; /* Para as imagens ocuparem todo o espaço dentro do slider */
+    display: block;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre as miniaturas */
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 80px; /* Largura das miniaturas */
+    height: auto;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.specifications {
+    max-width: 600px; /* Largura máxima das especificações */
+}
+
+.specifications h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.specifications ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.specifications li {
+    margin-bottom: 5px;
+}
+
+.specifications ul ul {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.form-container {
+    max-width: 400px; /* Largura máxima do formulário */
+}

@@ -1,0 +1,68 @@
+/* Estilização do container principal */
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permitir que os elementos se ajustem em telas menores */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilização do slider e descrições */
+.slider-descriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px; /* Aumentar a largura máxima */
+    margin-right: 20px; /* Espaçamento entre os elementos */
+}
+
+/* Estilização das especificações */
+.specifications {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilização do formulário de contato */
+.form-container {
+    max-width: 400px; /* Largura máxima */
+    margin-top: -20px; /* Margem negativa para ajustar para cima */
+}
+
+.form-box {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: black; /* Fundo preto */
+    color: gold; /* Letras em gold */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.whatsapp {
+    background-color: #25D366; /* Cor do WhatsApp */
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}

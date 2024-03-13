@@ -1,0 +1,11 @@
+  /* Estilização do rodapé */
+  footer {
+    margin-top: 20px; /* Espaçamento superior */
+    text-align: center;
+}
+
+footer a {
+    margin: 0 5px; /* Espaçamento horizontal */
+    color: #333333; /* Cor do texto */
+    text-decoration: none;
+}

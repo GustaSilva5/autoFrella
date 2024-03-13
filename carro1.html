@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro 1</title>
+    <link rel="stylesheet" href="/estilos/CarroDesc/navbar.css">
+    <link rel="stylesheet" href="/estilos/CarroDesc/Maininfo.css">
+    <link rel="stylesheet" href="/estilos/CarroDesc/slider.css">
+    <link rel="stylesheet" href="/estilos/CarroDesc/formulario.css">
+    <link rel="stylesheet" href="/estilos/CarroDesc/slidecars.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Logo</a></div>
+            <ul class="menu">
+                <li><a href="/telas/index.HTML">Home</a></li>
+                <li><a href="#Sobre">Sobre o carro</a></li>
+                <li><a href="#Carros">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-wrapper">
+        <!-- Slider e Descrições -->
+        <div class="slider-descriptions">
+            <!-- Slider -->
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="/images/Eclipse.png" class="slide" id="current-slide">
+                    <div class="thumbnails">
+                        <img src="/images/porche.png" class="thumbnail" onclick="showSlide('image1.jpg')">
+                        <img src="/images/jeep.png" class="thumbnail" onclick="showSlide('image2.jpg')">
+                        <img src="/images/Lamborghini.png" class="thumbnail" onclick="showSlide('image3.jpg')">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Descrições -->
+            <div class="specifications">
+                <h2>Especificações</h2>
+                <ul>
+                    <li>Versão: 3.0 V6 GASOLINA COUPÉ 4MATIC 9G-TRONIC</li>
+                    <li>KM: 49.250</li>
+                    <li>Ano/Modelo: 2017/2018</li>
+                    <li>Cor: PRETO</li>
+                    <li>Combustível: GASOLINA</li>
+                    <li>Câmbio: AUTOMÁTICA</li>
+                    <li>Observação:</li>
+                    <ul>
+                        <li>SISTEMA DE SOM PREMIUM</li>
+                        <li>REVISÕES EM DIA</li>
+                        <li>FARÓIS DE LED</li>
+                        <li>MOTOR 6CC BI TURBO</li>
+                        <li>BANCOS COM AJUSTES ELÉTRICOS E AJUSTE NA LOMBAR</li>
+                        <li>SUSPENSÃO ADAPTATIVA</li>
+                        <li>CARROCERIA COUPÉ ELEITA EM NEW YORK COMO MAIS BONITO E SEXY NO ANO DO SEU LANÇAMENTO.</li>
+                        <li>*** GARANTIMOS A MELHOR NEGOCIAÇÃO NESTE CARRO ***</li>
+                        <li>PRIORIZE O ATENDIMENTO PELO NOSSOS CANAIS DE WHATSAPP.</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Formulário de Contato -->
+        <div class="form-container">
+            <div class="form-box">
+                <h2>Solicitar Proposta</h2>
+                <form action="#" method="post">
+                    <label for="nome">Escreva seu nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br>
+        
+                    <label for="email">Coloque seu e-mail para orçamento:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+        
+                    <label for="telefone">Seu telefone para contato:</label><br>
+                    <input type="tel" id="telefone" name="telefone" required><br>
+        
+                    <input type="submit" value="Enviar Oferta">
+                </form>
+                <a href="https://api.whatsapp.com/send?phone=SEU_NUMERO&text=Olá,%20gostaria%20de%20solicitar%20uma%20proposta." class="whatsapp">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/iteratividade/InterDes/script.js"></script>
+    <footer>
+        <h3>Siga-nos nas redes sociais:</h3>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+    </footer>
+</body>
+</html>
